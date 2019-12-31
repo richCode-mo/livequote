@@ -1,4 +1,4 @@
-fetch("http://localhost:8080/qoutes")
+fetch("/qoutes" || "https://livequote.herokuapp.com/qoutes")
         .then((data) => data.json())
         .then((posts) => {
             console.log(posts)
