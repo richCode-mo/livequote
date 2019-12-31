@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="unicode">
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mew Send</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Leave a Quote -<span style="font-family: Arial;"> اتـرك رسالـة</span></h1>
+        <form id="form-container" action="/addQoutes" method="POST">
+            <div class="group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="group">
+                <label for="content">Content</label>
+                <textarea name="content" id="content" cols="20" rows="5"></textarea>
+            </div>
+            <div class="btn">
+                <button class="click" type="submit" id="btn">Submit</button>
+            </div>
+        </form>
+        <div class="btn-showPosts">
+            <div>
+                <a href="/allQoutes">Show all Quotes</a>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <footer>
+        <div class="footer">
+            <h3><a href="https://twitter.com/mohiden7" target="blank">< BY : Mohiden Abdulkarim ></a></h3>
+        </div>
+    </footer>
+</body>
+
+</html>
