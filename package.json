@@ -1,10 +1,11 @@
 {
-  "name": "Qoute",
+  "name": "quote",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js",
+    "devStart": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +15,6 @@
     "ejs": "^3.0.1",
     "express": "^4.17.1",
     "mongodb": "^3.4.1",
-    "mongoose": "^5.8.3",
     "monk": "^7.1.1"
   },
   "devDependencies": {
